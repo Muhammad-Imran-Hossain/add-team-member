@@ -1,0 +1,68 @@
+.container{
+    margin: 30px;
+    font-family: segoe UI;
+}
+input[name="name"],input[name="photo"],input[name="phone"]{
+    border:none;
+    padding:10px;
+    border-bottom: 1px solid gray;
+    width: 95%;
+    box-sizing: border-box;
+}
+.skillbox, .gender, .photo, .button,.phone{
+    text-align: left;
+    width: 95%; 
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+h3{
+   margin: 3px 0px;
+}
+.addbox{
+    width: 24%;
+    background: #ccc;
+    text-align: center;
+   float: left;
+}
+
+button{
+    box-sizing: border-box;
+    width: 95%;
+    border:none;
+    padding:10px;
+   background: #0069D9;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 16px;
+}
+button:hover{
+    background: #2b71bb; 
+}
+
+/* Team Member Area */
+
+.teambox{
+    width: 74%;
+    margin: auto;
+    display: block;
+    float: right;
+}
+.dev_area{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.devbox {
+   
+    width: 30%;
+    background: #baba;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.devbox img{
+
+    width: 100%;
+    height: 280px;
+    border-radius: 50%;
+}
